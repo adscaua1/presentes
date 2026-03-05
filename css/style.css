@@ -241,7 +241,7 @@ button:hover{
 
 @media(max-width:600px){
     .hero h1{
-        font-size:40px;
+        font-size:70px;
     }
 
     .foto-wrapper img{
@@ -249,7 +249,6 @@ button:hover{
         height:200px;
     }
 }
-
 /* ================= MEUS PRESENTES ================= */
 
 .meus-itens{
