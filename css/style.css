@@ -17,7 +17,7 @@ img{
 
 body{
     font-family:'Playfair Display', serif;
-    background:linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)),
+    background:linear-gradient(rgb(245, 238, 222), rgba(255,255,255,0.92)),
                url('https://www.transparenttextures.com/patterns/white-floral.png');
     color:#6d5c57;
     position: relative;
@@ -69,7 +69,7 @@ body{
     width:260px;
     height:260px;
     border-radius:50%;
-    border:8px solid #d4af37;
+    border:8px solid #d48b37f1;
     box-shadow:0 15px 35px rgba(212, 175, 55, 0.35);
     transition:0.4s;
 }
@@ -388,3 +388,4 @@ section{
     margin-top: 80px;
     margin-bottom: 80px;
 }
+
