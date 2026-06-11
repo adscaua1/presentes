@@ -63,7 +63,7 @@ const totalItens = document.querySelectorAll(".card").length;
 
 onSnapshot(collection(db, "presentes"), (snapshot) => {
   if(contador){
-    contador.textContent = `💍 ${snapshot.size} de ${totalItens} presentes já foram reservados`;
+    contador.textContent = ` ${snapshot.size} de ${totalItens} presentes já foram reservados`;
   }
 });
 
@@ -81,7 +81,7 @@ document.querySelectorAll(".card").forEach(card => {
 
     if(docSnap.exists()){
       card.classList.add("presenteado");
-      link.textContent = "Reservado 💍";
+      link.textContent = "Reservado ";
     } else {
       card.classList.remove("presenteado");
       link.textContent = "Presentear";
@@ -91,7 +91,7 @@ document.querySelectorAll(".card").forEach(card => {
 
   link.addEventListener("click", async () => {
 
-    if(link.textContent === "Reservado 💍"){
+    if(link.textContent === "Reservado "){
       return;
     }
 
